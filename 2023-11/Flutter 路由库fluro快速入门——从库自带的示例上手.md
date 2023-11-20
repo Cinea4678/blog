@@ -20,7 +20,7 @@ git clone https://github.com/lukepighetti/fluro.git
 
 IDEA会提示我们运行`flutter pub get`，但是运行之后就马上收到警报了：
 
-![Screenshot 2023-11-07 at 10.21.26](https://blogsources-1305284863.file.myqcloud.com/images/Screenshot%202023-11-07%20at%2010.21.26.png)
+![](https://s.c.accr.cc/picgo/1700461011-e675d4.png)
 
 显然这个example有点旧了。不过，在笔者写文的时候，只需要改一下`AndroidManifest.xml`里的`android:name"`字段就可以正常编译运行了，至于改成什么还请参见官方的指南：[Upgrading-pre-1.12-Android-projects](https://github.com/flutter/flutter/wiki/Upgrading-pre-1.12-Android-projects)。
 
@@ -28,7 +28,7 @@ IDEA会提示我们运行`flutter pub get`，但是运行之后就马上收到�
 
 在处理完Android里面的麻烦事之后，我们可以考虑启动模拟器，然后运行一下看看。笔者写文的时候正在用Mac电脑，所以就用iOS来运行了：
 
-<img src="https://blogsources-1305284863.file.myqcloud.com/images/Screenshot%202023-11-07%20at%2010.26.45.png" alt="Screenshot 2023-11-07 at 10.26.45" style="zoom:33%;" />
+![](https://s.c.accr.cc/picgo/d10730f871e59b7476d8f922c90c9268-e7bed6.png)
 
 性能很棒，动画（渐变）也很流畅。那么，我们该如何在项目（或新项目）里用上这个路由库呢？
 

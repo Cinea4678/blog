@@ -17,7 +17,7 @@ zhihu-url: https://zhuanlan.zhihu.com/p/666410931
 
 搜到包之后点击就能看到链接了：
 
-![](https://blogsources-1305284863.file.myqcloud.com/images/image-20231112124716085.png)
+![](https://s.c.accr.cc/picgo/1700461112-90bd81.png)
 
 ## 不提供浏览器版本的包
 
@@ -31,9 +31,9 @@ zhihu-url: https://zhuanlan.zhihu.com/p/666410931
 
 首先，我们确认这个库是没有直接提供浏览器版本的；在 jsDelivr 上虽然能搜到，但是点进去是这玩意儿：
 
-![](https://blogsources-1305284863.file.myqcloud.com/images/image-20231112132627188.png)
+![](https://s.c.accr.cc/picgo/1700461203-7f9d26.png)
 
-![image-20231112132639797](https://blogsources-1305284863.file.myqcloud.com/images/image-20231112132639797.png)
+![](https://s.c.accr.cc/picgo/1700461179-f08acb.png)
 
 这种东西直接引入浏览器显然用不了：
 
@@ -119,7 +119,7 @@ module.exports = {
 
 让我们试验一下：
 
-![](https://blogsources-1305284863.file.myqcloud.com/images/image-20231112135007417.png)
+![](https://s.c.accr.cc/picgo/1700461238-f344e4.png)
 
 非常成功！可以看到，功能的实现是正常的，控制台里没有再报 js 导入相关的错误了。
 
