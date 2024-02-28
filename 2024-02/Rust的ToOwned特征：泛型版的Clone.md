@@ -96,7 +96,9 @@ impl From<&str> for String {
 }
 ```
 
+---
 
+所有实现了`Clone`的类型`T`都会自动实现`ToOwned<T>`；这对`Cow`等依赖于`ToOwned`特征的类型来说很有用。
 
 ## 总结
 
@@ -104,4 +106,4 @@ impl From<&str> for String {
 
 ---
 
-下篇文章介绍的是Rust中经常被人忽视的智能指针`Cow`，我之前在学习Rust时就注意到无论是the book，还是Rust圣经，都没有讲到`Cow`，希望我的工作能为Rust增加一点可供新人参考的资料。
+下篇文章介绍的是Rust中经常被人忽视的智能指针`Cow`，我之前在学习Rust时就注意到无论是the book，还是Rust圣经，都没有讲到`Cow`；希望我的工作能为Rust增加一点可供新人参考的资料。
